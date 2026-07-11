@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Add from './component/Add'
 import Search from './component/Search'
+import Delete from './component/Delete'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
       <Add />
       <Search />
+      <Delete />
     </>
   )
 }
