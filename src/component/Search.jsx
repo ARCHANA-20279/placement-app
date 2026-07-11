@@ -3,10 +3,11 @@ import Navigation from './Navigation'
 
 const Search = () => {
   return (
-    <div>
+    <div><Navigation />
+
          <div classNameName="container" style={{padding:10,margin:50}}>
         <h1 style={{marginBottom:50}}>search a student</h1>
-        <Navigation />
+        
         <div className="container">
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
