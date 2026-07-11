@@ -4,6 +4,8 @@ import Navigation from './Navigation'
 const Delete = () => {
   return (
     <div>
+         <div classNameName="container" style={{padding:10,margin:50}}>
+        <h1 style={{marginBottom:50}}>Delete a Student</h1>
         <Navigation />
         <div className="container">
             <div className="row">
@@ -22,6 +24,7 @@ const Delete = () => {
                 </div>
             </div>
         </div>
+    </div>
     </div>
   )
 }

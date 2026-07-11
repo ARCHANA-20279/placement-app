@@ -4,6 +4,8 @@ import Navigation from './Navigation'
 const Search = () => {
   return (
     <div>
+         <div classNameName="container" style={{padding:10,margin:50}}>
+        <h1 style={{marginBottom:50}}>search a student</h1>
         <Navigation />
         <div className="container">
             <div className="row">
@@ -22,6 +24,7 @@ const Search = () => {
                 </div>
             </div>
         </div>
+    </div>
     </div>
   )
 }

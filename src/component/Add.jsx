@@ -4,6 +4,8 @@ import Navigation from './Navigation'
 const Add = () => {
   return (
     <div>
+         <div classNameName="container" style={{padding:10,margin:50}}>
+        <h1 style={{marginBottom:50}}>Add New Student</h1>
 <Navigation />
         <div className="container">
             <div className="row">
@@ -43,8 +45,8 @@ const Add = () => {
                                 <input type="text" className="form-control" />
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                                <label htmlFor="" className="form-label">ug degreemark</label>
-                                <input type="text" className="form-label" />
+                               <label htmlFor="" className="form-label">ug degreemark</label>
+                               <input type="text" className="form-control" />
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">pg degree name</label>
@@ -62,6 +64,7 @@ const Add = () => {
                 </div>
             </div>
         </div>
+    </div>
     </div>
   )
 }
